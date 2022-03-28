@@ -42,7 +42,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.calculator.Calculator</mainClass>
+                            <mainClass>Calculator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

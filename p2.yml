@@ -11,4 +11,4 @@
       shell: docker pull manthan0112/mini_project:7
       
     - name: running container
-      shell: docker run -it -d manthan0112/mini_project:7
+      shell: docker run -it manthan0112/mini_project:7

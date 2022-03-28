@@ -17,7 +17,7 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull meetgoswami/scientific_calculator:calc_1
+      shell: docker pull manthan0112/mini_project:7
       
     - name: running container
-      shell: docker run -it -d meetgoswami/scientific_calculator:calc_1
+      shell: docker run -it -d manthan0112/mini_project:7

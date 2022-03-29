@@ -7,8 +7,8 @@
         name: docker
         state: started
     - name: pull docker image
-      shell: docker pull manthan0112/mini_project:16
+      shell: docker pull manthan0112/mini_project
       
     - name: running container
-      shell: docker run -it -d manthan0112/mini_project:16
+      shell: docker run -it -d manthan0112/mini_project
 

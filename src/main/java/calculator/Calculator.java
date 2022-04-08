@@ -56,7 +56,7 @@ public class Calculator {
                     break;
                 case 4:
                     // find natural log
-                    System.out.print("Enter a number : ");
+                    System.out.print("Enter a number : :");
                     number1 = scanner.nextDouble();
                     System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
                     System.out.println("\n");

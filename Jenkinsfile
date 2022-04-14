@@ -48,7 +48,7 @@ pipeline {
         }
         stage('Ansible Deploy') {
             steps {
-                //Ansible Deploy to remote server (managed host)
+               
                 ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml'
 
             }

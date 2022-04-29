@@ -94,7 +94,7 @@ public class Calculator {
 //
 //            }
 //        } catch (ArithmeticException error) {
-//            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMes
+//            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + 
 //        }
         logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;

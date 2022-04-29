@@ -95,7 +95,7 @@ public class Calculator {
 //            }
 //        } catch (ArithmeticException error) {
 //            
-//        }
+//       }
         logger.info("[RESULT - NATURAL LOG] - " + result);
         return result;
     }

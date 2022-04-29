@@ -55,19 +55,13 @@ public class Calculator {
                     System.out.println("\n");
                     break;
                 case 4:
-<<<<<<< HEAD
 
                     System.out.print("Enter the number 1 : ");
                     num1 = scanner.nextDouble();
                     System.out.print("Enter the number 2 : ");
                     num2 = scanner.nextDouble();
                     System.out.println(num1+ " raised to power "+num2+" is : " + calculator.power(num1, num2));
-=======
-                    // find natural log
-                    System.out.print("Enter a number : :");
-                    number1 = scanner.nextDouble();
-                    System.out.println("Natural log of "+number1+" is : " + calculator.naturalLog(number1));
->>>>>>> 5c34d54ac0794c26cbcc0d66e5fd7f9684c8ea30
+
                     System.out.println("\n");
 
                     break;
